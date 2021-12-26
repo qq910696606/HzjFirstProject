@@ -1,0 +1,66 @@
+{
+  "name": "test_login_success",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 1 == 2\n  +1\n  -2",
+    "trace": "self = <test_four.TestLogin object at 0x0000022455566EC8>\n\n    @allure.story('登录成功') # 子功能模块\n    def test_login_success(self):\n        with allure.step(\"步骤1\"):\n            print(\"1、打开菜单\")\n        with allure.step(\"步骤2\"):\n            print(\"2、点击功能\")\n        print('这是登录用例，登录成功')\n>       assert 1==2\nE       assert 1 == 2\nE         +1\nE         -2\n\ntest_four.py:13: AssertionError"
+  },
+  "steps": [
+    {
+      "name": "步骤1",
+      "status": "passed",
+      "start": 1640490614097,
+      "stop": 1640490614097
+    },
+    {
+      "name": "步骤2",
+      "status": "passed",
+      "start": 1640490614097,
+      "stop": 1640490614097
+    }
+  ],
+  "start": 1640490614097,
+  "stop": 1640490614097,
+  "uuid": "23a4ca8c-309f-45a3-8a82-12801dcbf2a5",
+  "historyId": "f302675a2240e46f6fc6f0efcdc1bd5b",
+  "testCaseId": "16d8475c2996ce976bd7fcf89cc4ea92",
+  "fullName": "test_four.TestLogin#test_login_success",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "登录模块"
+    },
+    {
+      "name": "story",
+      "value": "登录成功"
+    },
+    {
+      "name": "suite",
+      "value": "test_four"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLogin"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-N0R16UT"
+    },
+    {
+      "name": "thread",
+      "value": "10508-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_four"
+    }
+  ]
+}

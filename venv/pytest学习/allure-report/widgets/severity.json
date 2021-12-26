@@ -1,0 +1,41 @@
+[ {
+  "uid" : "f682eabeabffc6f2",
+  "name" : "test_login_success",
+  "time" : {
+    "start" : 1640492243070,
+    "stop" : 1640492243070,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "67578595066bd403",
+  "name" : "test_login_fail",
+  "time" : {
+    "start" : 1640492243090,
+    "stop" : 1640492243090,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5304ce7e90d99431",
+  "name" : "test_login_baidu",
+  "time" : {
+    "start" : 1640492243095,
+    "stop" : 1640492243095,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7992092b58b2818b",
+  "name" : "test_login_none",
+  "time" : {
+    "start" : 1640492243095,
+    "stop" : 1640492243095,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

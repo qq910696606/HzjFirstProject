@@ -1,0 +1,71 @@
+{
+  "uid" : "7992092b58b2818b",
+  "name" : "test_login_none",
+  "fullName" : "test_four.TestLogin#test_login_none",
+  "historyId" : "cd05bf1a0e95b0e8ab5b40af0c7b085c",
+  "time" : {
+    "start" : 1640492243095,
+    "stop" : 1640492243095,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户缺失"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_four"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N0R16UT"
+  }, {
+    "name" : "thread",
+    "value" : "8248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_four"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "59a2a36633f384ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640490614126,
+        "stop" : 1640490614126,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7992092b58b2818b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "f682eabeabffc6f2",
+        "parentUid" : "57a00934f1bd353362aa1d78642bc405",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640492243070,
+          "stop" : 1640492243070,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57a00934f1bd353362aa1d78642bc405"
+    }, {
+      "name" : "登录失败",
+      "children" : [ {
+        "name" : "test_login_fail",
+        "uid" : "67578595066bd403",
+        "parentUid" : "e3ad7243d130097a0b853dba02afbe33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640492243090,
+          "stop" : 1640492243090,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3ad7243d130097a0b853dba02afbe33"
+    }, {
+      "name" : "test_login_baidu",
+      "uid" : "5304ce7e90d99431",
+      "parentUid" : "6958045a481574bf02bb11ef07a7047b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640492243095,
+        "stop" : 1640492243095,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "用户缺失",
+      "children" : [ {
+        "name" : "test_login_none",
+        "uid" : "7992092b58b2818b",
+        "parentUid" : "817f94b06c709b85f747107f780f3c13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640492243095,
+          "stop" : 1640492243095,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "817f94b06c709b85f747107f780f3c13"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,105 @@
+{
+  "uid" : "911903c5f84a1b33",
+  "name" : "test_login_success",
+  "fullName" : "test_four.TestLogin#test_login_success",
+  "historyId" : "f302675a2240e46f6fc6f0efcdc1bd5b",
+  "time" : {
+    "start" : 1640490614097,
+    "stop" : 1640490614097,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2\n  +1\n  -2",
+  "statusTrace" : "self = <test_four.TestLogin object at 0x0000022455566EC8>\n\n    @allure.story('登录成功') # 子功能模块\n    def test_login_success(self):\n        with allure.step(\"步骤1\"):\n            print(\"1、打开菜单\")\n        with allure.step(\"步骤2\"):\n            print(\"2、点击功能\")\n        print('这是登录用例，登录成功')\n>       assert 1==2\nE       assert 1 == 2\nE         +1\nE         -2\n\ntest_four.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 1 == 2\n  +1\n  -2",
+    "statusTrace" : "self = <test_four.TestLogin object at 0x0000022455566EC8>\n\n    @allure.story('登录成功') # 子功能模块\n    def test_login_success(self):\n        with allure.step(\"步骤1\"):\n            print(\"1、打开菜单\")\n        with allure.step(\"步骤2\"):\n            print(\"2、点击功能\")\n        print('这是登录用例，登录成功')\n>       assert 1==2\nE       assert 1 == 2\nE         +1\nE         -2\n\ntest_four.py:13: AssertionError",
+    "steps" : [ {
+      "name" : "步骤1",
+      "time" : {
+        "start" : 1640490614097,
+        "stop" : 1640490614097,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "步骤2",
+      "time" : {
+        "start" : 1640490614097,
+        "stop" : 1640490614097,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录成功"
+  }, {
+    "name" : "suite",
+    "value" : "test_four"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-N0R16UT"
+  }, {
+    "name" : "thread",
+    "value" : "10508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_four"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "911903c5f84a1b33.json",
+  "parameterValues" : [ ]
+}
