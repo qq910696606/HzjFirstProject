@@ -1,5 +1,5 @@
 import pytest
-import time
+
 class Test_Demo():
     def test_1(self):
         print('测试用例1')
@@ -9,15 +9,13 @@ class Test_Demo():
         re = myfixture1
         print('fix返回的参数：',re)
         assert  11==11
-
-    @ pytest.mark.flaky(reruns=5,reruns_delay=0)
     def test_3(self):
         print('测试用例3')
-        pytest.assume(11==11)
-        time.sleep(2)
-        print('11=11')
-        pytest.assume(1 == 1)
-        print('1=1')
-        # pytest --reruns 5 --reruns-delay 1 test_fixture2.py 失败重试5次
+        assert  11==11
 
-    # 多重校验
+# ;自定义测试文件命名规则
+# python_files = check*
+# ;自定义测试类命名规则
+# python_classes = Test*
+# ;自定义测试方法的规则
+# python_functions = test_* check_*

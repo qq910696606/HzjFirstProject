@@ -15,9 +15,9 @@ import pytest
 # def myfixture():
 #     print('这是我的fixture：module')
 
-# fixture带参数
-@pytest.fixture(params=['canshu1','canshu2'])
+# fixture带参数,可以指定多个参数，一个参数就是一个用例
+@pytest.fixture(params=['canshu1','canshu2','aaa'])
 def myfixture1(request):
-    print("执行了一次fixture，参数是：%s"%request.params)
-    yield request.params
-    print('激活后面的操作')
+    print("执行了一次fixture，参数是：%s"%request.param)
+    yield request.param
+    print('激活后面的操作，例如：teardown') # yield激活了这个操作
